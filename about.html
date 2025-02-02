@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Hotel website</title>
+    <script src="https://kit.fontawesome.com/12846f5734.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
+
 <body>
     <div class="container">
         <nav class="navbar">
+
             <ul>
-    
-        <li><a href="#">Home</a></li>
-        <li><a href="about.html">Menu</a></li>
-        <li><a href="#>">About</a> </li>
-        <li><a href="#">Location</a></li>
-        <li><a href="#">Contact</a></li>
+
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a> </li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+                <li><a class="reservation" href="#">RESERVATION</a>
+                    <label class="hamburger-menu">
+                        <input type="checkbox">
+                        <aside class="sidebar"></aside>
+                    </label>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                    <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+
+    </div>
     
         <h1>G Hotel</h1>
         <p>Situated in the tranquil side of Diani Beach, Kenya is G Hotel in lush tropical
