@@ -201,9 +201,10 @@ ul{
 }
 .footer{
     background-color: #24262b;
-    padding: 70px 0;
-    width: 100vw;
-    height: 50vh;
+    margin: auto;
+    /* padding: 70px 0; */
+    /* width: 100vw;
+    height: 50vh; */
     
 
 }
