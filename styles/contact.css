@@ -1,0 +1,16 @@
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:rgb(25, 21, 21);
+    padding: 4px;
+    transition: 3.5s;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset,
+    0 3px 50px orangered inset,0 3px 50px orangered inset;
+
+}

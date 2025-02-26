@@ -6,40 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel website</title>
     <script src="https://kit.fontawesome.com/12846f5734.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar">
+    <section class="w-full h-screen">
+        <div class="container">
+            <nav class="navbar">
 
-            <ul>
+                <ul>
 
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About</a> </li>
-                <li><a href="location.html">Location</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a> </li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="contact.html">Contact</a></li>
 
-                <li><a class="reservation" href="#">RESERVATION</a>
-                    <label class="hamburger-menu">
-                        <input type="checkbox">
-                        <aside class="sidebar"></aside>
-                    </label>
-                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-                    <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-            </ul>
-        </nav>
 
-    </div>
-    
-        <h1>G Hotel</h1>
-        <p>Situated in the tranquil side of Diani Beach, Kenya is G Hotel in lush tropical
-            gardens and along one of the most exclusive and pristine beaches of the Kenyan coast. Enjoy
-            tasteful Swahili style spacious beach holiday suites & Villas, personalized service and the freedom of organising
-            your own space and time.
-        </p>
-</body>
-</html>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="flex flex-col min-h-screen justify-center items-center mx-20">
+            <h1 class=" font-fantasy-papyrus text-4xl mt-20 text-orange-500">GR8 HOTELS</h1>
+            <p class=" text-white mt-20">The GR8 restaurant has grown into arguably the best seafood restaurant in the
+                mainland.
+
+                Value for the environment is part of the most important cultures at GR8. Evident from the
+                ambience and the look of the restaurant itself.
+
+                We are 100% plastic free zone, maintaining an organic garden that supplies some of our fresh
+                produce. All our vendors are vetted and we conduct hygiene tests on supplier products. Our seafoods are fresh from the ocean to you plate hooked with flavor, reeled by freshness
+                
+
+                Welcome to The GR8 restaurant for your best dining Experience.</p>
+        </div>
+
+        </div>
+        <div class="socialmedia">
+            <div class="socialmedia">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/?lang=en&mx=2" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <footer class="footer w-full h-screen">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">affiliate program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">shipping</a></li>
+                            <li><a href="#">returns</a></li>
+                            <li><a href="#">order status</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Top Categories</h4>
+                        <ul>
+                            <li><a href="#">Pizza</a></li>
+                            <li><a href="#">Sushi</a></li>
+                            <li><a href="#">seafood</a></li>
+                            <li><a href="#">burgers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <ul>
+                            <a href="https://www.facebook.com/" target="_blank"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="https://x.com/?lang=en&mx=2" target="_blank"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://web.whatsapp.com/" target="_blank"><i
+                                    class="fa-brands fa-whatsapp"></i></a>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </section>
